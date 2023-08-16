@@ -1,0 +1,23 @@
+Parent is : 33150
+Number of children: 10
+Child 33151 is created
+Child 33152 is created
+Child 33153 is created
+Child 33154 is created
+Child 33155 is created
+Child 33156 is created
+Child 33157 is created
+Child 33158 is created
+Child 33159 is created
+Child 33160 is created
+Child 33160 of parent 33159 exited
+Child 33159 of parent 33158 exited
+Child 33158 of parent 33157 exited
+Child 33157 of parent 33156 exited
+Child 33156 of parent 33155 exited
+Child 33155 of parent 33154 exited
+Child 33154 of parent 33153 exited
+Child 33153 of parent 33152 exited
+Child 33152 of parent 33151 exited
+Child 33151 of parent 33150 exited
+Parent exited

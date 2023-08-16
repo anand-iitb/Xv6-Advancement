@@ -1,0 +1,23 @@
+Parent is : 32409
+Number of children: 10
+Child 32410 is created
+Child 32411 is created
+Child 32412 is created
+Child 32413 is created
+Child 32414 is created
+Child 32415 is created
+Child 32416 is created
+Child 32418 is created
+Child 32419 is created
+Child 32417 is created
+Child 32410 of parent 32409 exited
+Child 32411 of parent 32409 exited
+Child 32412 of parent 32409 exited
+Child 32413 of parent 32409 exited
+Child 32414 of parent 32409 exited
+Child 32415 of parent 32409 exited
+Child 32416 of parent 32409 exited
+Child 32418 of parent 32409 exited
+Child 32419 of parent 32409 exited
+Child 32417 of parent 32409 exited
+Parent exited

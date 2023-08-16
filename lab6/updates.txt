@@ -1,0 +1,17 @@
+The MakeFile is updated.
+-O2 flag is changed to -O0 flag to properly test your implementation.
+test1.c and test2.c are also added so include it in your directory.
+
+
+
+Also an efficient way of implementing maintaining the wtime and rutime counters is as follows:
+- Have a snapshot of clockticks in each process when its state is changed
+- Initialise the snapshot in allocproc
+- Update the counters and snapshot accordingly for these state changes
+	- SLEEPING TO RUNNABLE	:	wakeup1
+	- RUNNING TO SLEEPING	:	sleep
+	- RUNNING TO RUNNABLE	:	yield
+	- RUNNABLE TO RUNNING	:	scheduler
+	- RUNNING TO ZOMBIE	:	exit
+	- in kill when a sleeping process' state is changed from SLEEPING to RUNNABLE with killed=1
+

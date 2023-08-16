@@ -1,0 +1,171 @@
+[disk3] Creating the disk image 
+[disk3] Disk image is successfully created 
+[disk3] Disk successfully mounted 
+Input key: 
+[disk3] fsdump 
+/
+|--dir1
+|  |--dir2
+|  |  |--dir5
+|  |  |--file3 (0 bytes)
+|  |--file1 (0 bytes)
+|--dir3
+|  |--dir4
+|  |--file2 (0 bytes)
+Inodes in use: 9, Blocks in use: 3
+
+[disk3] fsdump 
+/
+|--dir1
+|  |--dir2
+|  |  |--dir5
+|  |  |--file3 (0 bytes)
+|  |--file1 (0 bytes)
+|--dir3
+|  |--dir4
+|  |  |--dir6
+|  |  |--file4 (0 bytes)
+|  |  |--dir7
+|  |  |--file5 (0 bytes)
+|  |--file2 (0 bytes)
+Inodes in use: 13, Blocks in use: 3
+
+[disk3] fsdump 
+/
+|--dir1
+|  |--dir2
+|  |  |--dir5
+|  |  |  |--file6 (0 bytes)
+|  |  |  |--dir8
+|  |  |  |  |--file7 (0 bytes)
+|  |  |  |  |--file8 (0 bytes)
+|  |  |--file3 (0 bytes)
+|  |--file1 (0 bytes)
+|--dir3
+|  |--dir4
+|  |  |--dir6
+|  |  |--file4 (0 bytes)
+|  |  |--dir7
+|  |  |--file5 (0 bytes)
+|  |--file2 (0 bytes)
+Inodes in use: 17, Blocks in use: 3
+
+[disk3] fsdump 
+/
+|--dir1
+|  |--dir2
+|  |  |--file3 (0 bytes)
+|  |--file1 (0 bytes)
+|--dir3
+|  |--dir4
+|  |  |--dir6
+|  |  |--file4 (0 bytes)
+|  |  |--dir7
+|  |  |--file5 (0 bytes)
+|  |--file2 (0 bytes)
+Inodes in use: 12, Blocks in use: 3
+
+
+[disk4] Creating the disk image 
+[disk4] Disk image is successfully created 
+[disk4] Disk successfully mounted 
+Input key: Data: !-----------------------64 Bytes of Data-----------------------!!-----------------------64 Bytes of Data-----------------------!!-----------------------64 Bytes of Data-----------------------!!-----------------------64 Bytes of Data-----------------------!!-----------------------64 Bytes of Data-----------------------!!-----------------------64 Bytes of Data-----------------------!!-----------------------64 Bytes of Data-----------------------!!-----------------------64 Bytes of Data-----------------------!
+
+[disk4] fsdump 
+/
+|--file1 (512 bytes)
+|--file2 (0 bytes)
+|--file3 (0 bytes)
+|--file4 (0 bytes)
+Inodes in use: 5, Blocks in use: 5
+Data: !-----------------------64 Bytes of Data-----------------------!!-----------------------64 Bytes of Data-----------------------!!-----------------------64 Bytes of Data-----------------------!!-----------------------64 Bytes of Data-----------------------!!-----------------------64 Bytes of Data-----------------------!!-----------------------64 Bytes of Data-----------------------!!-----------------------64 Bytes of Data-----------------------!!-----------------------64 Bytes of Data-----------------------!!-----------------------64 Bytes of Data-----------------------!!-----------------------64 Bytes of Data-----------------------!!-----------------------64 Bytes of Data-----------------------!!-----------------------64 Bytes of Data-----------------------!!-----------------------64 Bytes of Data-----------------------!!-----------------------64 Bytes of Data-----------------------!!-----------------------64 Bytes of Data-----------------------!!-----------------------64 Bytes of Data-----------------------!
+
+[disk4] fsdump 
+/
+|--file1 (512 bytes)
+|--file2 (1024 bytes)
+|--file3 (0 bytes)
+|--file4 (0 bytes)
+Inodes in use: 5, Blocks in use: 9
+
+[disk4] fsdump 
+/
+|--file1 (512 bytes)
+|--file2 (1024 bytes)
+|--file3 (512 bytes)
+|--file4 (512 bytes)
+Inodes in use: 5, Blocks in use: 13
+
+[disk4] fsdump 
+/
+|--file1 (512 bytes)
+|--file3 (512 bytes)
+|--file4 (512 bytes)
+Inodes in use: 4, Blocks in use: 9
+
+[disk4] fsdump 
+/
+|--file1 (512 bytes)
+|--file4 (512 bytes)
+Inodes in use: 3, Blocks in use: 7
+
+
+[disk2] Disk opened 
+[disk2] File system found. fs_number: 0 
+[disk2] Disk successfully mounted 
+
+[disk2] fsdump 
+/
+|--file1 (512 bytes)
+|--file4 (512 bytes)
+Inodes in use: 3, Blocks in use: 7
+
+
+Data: !-----------------------70 Bytes of Data-----------------------------!!-----------------------70 Bytes of Data-----------------------------!!-----------------------70 Bytes of Data-----------------------------!!-----------------------70 Bytes of Data-----------------------------!
+Data: !-----------------------70 Bytes of Data-----------------------------!!-----------------------70 Bytes of Data-----------------------------!!-----------------------70 Bytes of Data-----------------------------!!-----------------------70 Bytes of Data-----------------------------!
+Data: !-----------------------70 Bytes of Data-----------------------------!!-----------------------70 Bytes of Data-----------------------------!!-----------------------70 Bytes of Data-----------------------------!!-----------------------70 Bytes of Data-----------------------------!
+Data: !-------------46 Bytes of Data---------------!!-------------46 Bytes of Data---------------!!-------------46 Bytes of Data---------------!!-------------46 Bytes of Data---------------!
+
+[disk3] fsdump 
+/
+|--dir1
+|  |--dir2
+|  |  |--file3 (0 bytes)
+|  |--file1 (0 bytes)
+|--dir3
+|  |--dir4
+|  |  |--dir6
+|  |  |--file4 (1024 bytes)
+|  |  |--dir7
+|  |  |--file5 (0 bytes)
+|  |--file2 (0 bytes)
+Inodes in use: 12, Blocks in use: 7
+Creating file 0_.txt: 1
+Creating file 1_.txt: 1
+Creating file 2_.txt: 1
+Creating file 3_.txt: 1
+Creating file 4_.txt: -1
+Creating file 5_.txt: -1
+
+[disk3] fsdump 
+/
+|--dir1
+|  |--dir2
+|  |  |--file3 (0 bytes)
+|  |--file1 (0 bytes)
+|--dir3
+|  |--dir4
+|  |  |--dir6
+|  |  |--file4 (1024 bytes)
+|  |  |--dir7
+|  |  |  |--0_.txt (1024 bytes)
+|  |  |  |--1_.txt (1024 bytes)
+|  |  |  |--2_.txt (1024 bytes)
+|  |  |  |--3_.txt (1024 bytes)
+|  |  |--file5 (0 bytes)
+|  |--file2 (0 bytes)
+Inodes in use: 16, Blocks in use: 23
+
+[disk3] fsdump 
+/
+Inodes in use: 1, Blocks in use: 3

@@ -1,0 +1,44 @@
+Sample outputs for part2: wait2
+
+run 
+- test1 <num_children>			--- same number of computations
+- test2 <num_children>			--- diff number of computations
+
+
+$ test1 4
+*Case1: Parent has no children*
+wait2 status: -1
+*Case2: Parent has children*
+Child 4 created
+Child 5 created
+Child 6 created
+Child 7 created
+Child 4 finished
+Child 6 finished
+Child no. 0, Child pid: 4 exited with Status: 4, Waiting Time: 121, Run Time: 40
+Child 5 finished
+Child 7 finished
+Child no. 1, Child pid: 6 exited with Status: 6, Waiting Time: 122, Run Time: 40
+Child no. 2, Child pid: 5 exited with Status: 5, Waiting Time: 125, Run Time: 41
+Child no. 3, Child pid: 7 exited with Status: 7, Waiting Time: 123, Run Time: 41
+$ 
+$ 
+$ test2 4
+*Case1: Parent has no children*
+wait2 status: -1
+*Case2: Parent has children*
+Child 11 created
+Child 11 finished
+Child Child 12 created
+Child 13 created
+Child 14 created
+no. 0, Child pid: 11 exited with Status: 11, Waiting Time: 2, Run Time: 0
+Child 12 finished
+Child no. 1, Child pid: 12 exited with Status: 12, Waiting Time: 97, Run Time: 47
+Child 13 finished
+Child no. 2, Child pid: 13 exited with Status: 13, Waiting Time: 143, Run Time: 93
+Child 14 finished
+Child no. 3, Child pid: 14 exited with Status: 14, Waiting Time: 144, Run Time: 141
+$ 
+
+

@@ -1,0 +1,44 @@
+Sample outputs for part3: let's get even policy
+
+run 
+- test1 <num_children>			--- same number of computations
+- test2 <num_children>			--- diff number of computations
+
+
+$ test1 4
+*Case1: Parent has no children*
+wait2 status: -1
+*Case2: Parent has children*
+Child 5 created
+Child 6 created
+Child 7 created
+Child 8 created
+Child 6 finished
+Child 8 finished
+Child no. 0, Child pid: 6 exited with Status: 6, Waiting Time: 74, Run Time: 37
+Child no. 1, Child pid: 8 exited with Status: 8, Waiting Time: 75, Run Time: 37
+Child 5 finished
+Child no. 2, Child pid: 5 exited with Status: 5, Waiting Time: 116, Run Time: 37
+Child 7 finished
+Child no. 3, Child pid: 7 exited with Status: 7, Waiting Time: 116, Run Time: 40
+$ 
+$ 
+$ test2 4
+*Case1: Parent has no children*
+wait2 status: -1
+*Case2: Parent has children*
+Child 12 created
+Child 12 finished
+Child 1Child 14 created
+Child 15 created
+Child no. 0, Child pid: 12 exi3 created
+ted with Status: 12, Waiting Time: 1, Run Time: 0
+Child 14 finished
+Child no. 1, Child pid: 14 exited with Status: 14, Waiting Time: 93, Run Time: 91
+Child 13 finished
+Child no. 2, Child pid: 13 exited with Status: 13, Waiting Time: 143, Run Time: 48
+Child 15 finished
+Child no. 3, Child pid: 15 exited with Status: 15, Waiting Time: 143, Run Time: 146
+$
+
+
